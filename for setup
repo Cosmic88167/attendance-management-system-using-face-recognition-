@@ -1,0 +1,14 @@
+//firstly uninstall the old version of pysimplegui
+python -m pip uninstall PySimpleGUI
+python -m pip cache purge
+
+// then install the new version of it 
+python -m pip install --upgrade --extra-index-url https://PySimpleGUI.net/install PySimpleGUI
+
+// make environment for your project 
+
+python -m venv env
+env\Scripts\activate
+
+// then install all the import by just intsall 
+pip install appdirs asarPy attrs black cachetools certifi charset-normalizer click contourpy cssselect cssutils cycler demjson3 distlib filelock fonttools idna kiwisolver lxml matplotlib more-itertools nose numpy opencv-contrib-python packaging pandas pillow platformdirs premailer pyparsing PySimpleGUI python-dateutil pytz requests setuptools six toml tzdata urllib3 virtualenv xlrd xmltodict yagmail yapf
